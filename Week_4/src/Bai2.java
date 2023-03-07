@@ -6,10 +6,11 @@ public class Bai2
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhap vao so nguyen n: ");
 		int n = sc.nextInt();
-		if(n % 2 == 0) {
+		/*if(n % 2 == 0) {
 			System.out.println(n + " la so chan");
 		}else {
 			System.out.println(n + " la so le");
-		}
+		}*/
+		System.out.println((n%2 == 0)? n + " la so chan": n + " la so le");
 	}
 }
