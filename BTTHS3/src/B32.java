@@ -96,10 +96,10 @@ public class B32 {
         System.out.println("Chu Vi Tam Giac la:" + ABC.ChuVi()); 
         System.out.println("Dien Tich Tam Giac la:" + ABC.DienTich()); 
 
-        DuongTron O = new DuongTron();
-        O.NhapDT();
-        O.InDuongTron();
-        System.out.println("Chu Vi Duong Tron la:" + O.ChuVi()); 
-        System.out.println("Dien Tich Duong Tron la:" + O.DienTich()); 
+        DuongTron dt = new DuongTron();
+        dt.NhapDT();
+        dt.InDuongTron();
+        System.out.println("Chu Vi Duong Tron la:" + dt.ChuVi()); 
+        System.out.println("Dien Tich Duong Tron la:" + dt.DienTich()); 
     }
 }
