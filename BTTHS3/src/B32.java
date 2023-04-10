@@ -76,13 +76,13 @@ class DuongTron extends Diem {
         System.out.println("\nDuong tron tam O co toa do:");
         System.out.print("Tam O: ");
         this.O.InDiem();
-        System.out.print("Ban kinh r: " + r);
+        System.out.println("Ban kinh r: " + r);
         }
         double ChuVi() {
-            return (2 * 3.14 * r);
+            return (2 * Math.PI * r);
         }
         double DienTich() {
-            return (3.14 * r * r);
+            return (Math.PI * Math.pow(r, 2));
         }
 }
 
