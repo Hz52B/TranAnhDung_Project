@@ -191,8 +191,8 @@ abstract class Hocvien {
 	        double hocphi = soBuoiHocLT * giaTienMoiBuoiLT - UuTien();
 	        if(hocphi > 0) return hocphi;
 	        else return 0;
-	};
 	}
+}
 	
 public class B44 {
 	
