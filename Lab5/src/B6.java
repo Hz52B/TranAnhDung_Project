@@ -49,6 +49,7 @@ public class B6 {
 		
 		System.out.println("Nhap so luong sinh vien: ");
 		int n = sc.nextInt();
+		sc.nextLine();
 		
 		for(int i = 0; i<n; i++) {
 			System.out.println("Nhap thong tin sinh vien thu " + (i+1) +":");
@@ -60,7 +61,7 @@ public class B6 {
 			String Lop = sc.nextLine();
 			
 			SinhVien sv = new SinhVien(MaSV,Hoten,Lop);
-			sinhVienmap.put(Lop, sv);
+			sinhVienmap.put(MaSV, sv);
 		}
 		
 		System.out.println("Nhap ten lop can tim: ");
